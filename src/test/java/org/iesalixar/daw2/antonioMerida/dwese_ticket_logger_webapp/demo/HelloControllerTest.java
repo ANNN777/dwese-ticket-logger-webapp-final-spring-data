@@ -1,4 +1,4 @@
-package org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.demo;
+package org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

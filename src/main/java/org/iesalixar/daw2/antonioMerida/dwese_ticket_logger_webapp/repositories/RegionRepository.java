@@ -1,6 +1,6 @@
-package org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.repositories;
+package org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.repositories;
 
-import org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.entities.Region;
+import org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.entities.Region;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

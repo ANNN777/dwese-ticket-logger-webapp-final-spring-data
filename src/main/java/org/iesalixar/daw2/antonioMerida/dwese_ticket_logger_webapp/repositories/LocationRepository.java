@@ -1,10 +1,6 @@
-package org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.repositories;
+package org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.repositories;
 
-import java.util.List;
-import java.util.Optional;
-import org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.entities.Location;
-import org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.entities.Province;
-import org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.entities.Supermarket;
+import org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.entities.Location;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

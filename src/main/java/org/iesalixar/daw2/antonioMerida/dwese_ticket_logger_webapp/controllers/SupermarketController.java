@@ -1,8 +1,8 @@
-package org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.controllers;
+package org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.controllers;
 
 import jakarta.validation.Valid;
-import org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.repositories.SupermarketRepository;
-import org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.entities.Supermarket;
+import org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.repositories.SupermarketRepository;
+import org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.entities.Supermarket;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

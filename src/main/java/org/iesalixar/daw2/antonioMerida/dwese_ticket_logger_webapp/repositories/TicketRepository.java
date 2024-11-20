@@ -1,7 +1,7 @@
-package org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.repositories;
+package org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.repositories;
 
 import java.util.List;
-import org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.entities.Ticket;
+import org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.entities.Ticket;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**

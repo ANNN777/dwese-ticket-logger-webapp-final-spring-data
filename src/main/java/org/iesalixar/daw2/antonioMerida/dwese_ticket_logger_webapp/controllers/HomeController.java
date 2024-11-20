@@ -1,4 +1,4 @@
-package org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.controllers;
+package org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

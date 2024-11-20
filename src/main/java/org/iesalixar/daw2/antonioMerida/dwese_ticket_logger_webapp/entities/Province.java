@@ -1,4 +1,4 @@
-package org.iesalixar.daw2.nombrealumno.dwese_ticket_logger_webapp.entities;
+package org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.entities;
 
 import jakarta.persistence.*; // Anotaciones de JPA
 import jakarta.validation.constraints.NotEmpty;
