@@ -9,6 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -181,6 +182,7 @@ public class ProvinceController {
      * @param redirectAttributes  Atributos para mensajes flash de redirección.
      * @return Redirección a la lista de provincias.
      */
+    @PreAuthorize("hasRole('ADMIN')")
     @PostMapping("/delete")
     public String deleteProvince(@RequestParam("id") Long id, RedirectAttributes redirectAttributes) {
         logger.info("Eliminando provincia con ID {}", id);
