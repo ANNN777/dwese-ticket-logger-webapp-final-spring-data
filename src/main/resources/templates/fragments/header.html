@@ -46,6 +46,9 @@
                     <select name="lang" onchange="this.form.submit()" class="form-select">
                         <option value="es" th:selected="${#locale.language == 'es'}">Español</option>
                         <option value="en" th:selected="${#locale.language == 'en'}">English</option>
+                    </select>
+                </form>
+            </div>
 
                         <!-- Botones de Login y Logout -->
                         <ul class="navbar-nav ms-auto mb-2 mb-md-0">
@@ -62,10 +65,6 @@
                                 <form id="logout-form" th:action="@{/logout}" method="post" style="display: none;"></form>
                             </li>
                         </ul>
-
-                    </select>
-                </form>
-            </div>
         </div>
     </nav>
 </header>

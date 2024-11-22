@@ -36,13 +36,6 @@ public class CustomOAuth2SuccessHandler implements AuthenticationSuccessHandler 
     @Autowired
     private CustomUserDetailsService customUserDetailsService;
 
-    @Autowired
-    private CustomOAuth2SuccessHandler customOAuth2SuccessHandler;
-
-
-    @Autowired
-    private CustomOAuth2FailureHandler customOAuth2FailureHandler;
-
 
     /**
      * Maneja el evento de autenticación exitosa con OAuth2.
