@@ -5,6 +5,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
+
 /**
  * Repositorio para la entidad Province que extiende JpaRepository.
  * Proporciona operaciones CRUD y consultas personalizadas para la entidad Province.
