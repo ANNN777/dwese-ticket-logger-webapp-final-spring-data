@@ -1,5 +1,7 @@
 package org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.repositories;
 
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Size;
 import org.iesalixar.daw2.antonioMerida.dwese_ticket_logger_webapp.entities.Province;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -29,4 +31,6 @@ public interface ProvinceRepository extends JpaRepository<Province, Long> {
      */
     @Query("SELECT COUNT(p) > 0 FROM Province p WHERE p.code = :code AND p.id != :id")
     boolean existsProvinceByCodeAndNotId(@Param("code") String code, @Param("id") Long id);
+
+    Object existsProvinceByCode(@NotEmpty(message = "{msg.province.code.notEmpty}") @Size(max = 2, message = "{msg.province.code.size}") String code);
 }
